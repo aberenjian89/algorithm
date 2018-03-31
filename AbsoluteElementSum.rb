@@ -7,8 +7,7 @@ def playingWithNumbers(arr, queries)
     # adding queries[i] to res  
     j = 0 
     total = 0  
-    while j <= arr.length-1 
-#       debugger    
+    while j <= arr.length-1     
        res[j] = res[j] + queries[i]
        if res[j] < 0 
            total += -1*(res[j])
